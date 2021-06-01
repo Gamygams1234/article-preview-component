@@ -151,8 +151,8 @@ body {
                         border-radius: 20px;
                         height: auto;
                         left: auto;
-                        right: -78px;
-                        bottom: 78px;
+                        right: 70px;
+                        bottom: 18px;
                         li {
                             a {
                                 margin-left: 0.5em;
@@ -166,14 +166,13 @@ body {
                     }
                     #socials::after {
                         content: "";
-                        width: 0;
-                        height: 0;
-                        border-left: 20px solid transparent;
-                        border-right: 20px solid transparent;
-                        border-top: 20px solid hsl(217, 19%, 35%);
+                        border-bottom: 20px solid transparent;
+                        // whatever side is not transparent will have the triangle pointed the opposite direction
+                        border-left: 20px solid #48556a;
+                        border-top: 20px solid transparent;
                         position: absolute;
-                        bottom: -15px;
-                        right: 97px;
+                        bottom: 10px;
+                        right: -14px;
                     }
                 }
             }
